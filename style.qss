@@ -1,0 +1,160 @@
+/* Основной стиль приложения */
+QMainWindow {
+    background-color: #f4f8fd;
+}
+QWidget {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 10pt;
+    color: #0d1934;
+}
+
+/* Кнопки */
+QPushButton {
+    background-color: #1976d2;
+    color: #fff;
+    border-radius: 5px;
+    min-height: 32px;
+    font-weight: 600;
+    padding: 7px 22px;
+    border: none;
+    transition: background 0.2s;
+}
+QPushButton:hover {
+    background-color: #1565c0;
+}
+QPushButton:pressed {
+    background-color: #155fa0;
+}
+QPushButton:disabled {
+    background-color: #bdbdbd;
+    color: #f3f3f3;
+}
+QPushButton#addButton, QPushButton#generateButton {
+    background-color: #43a047;
+}
+QPushButton#addButton:hover, QPushButton#generateButton:hover {
+    background-color: #388e3c;
+}
+QPushButton#deleteButton {
+    background-color: #e53935;
+}
+QPushButton#deleteButton:hover {
+    background-color: #ba2c2c;
+}
+QPushButton#exitButton {
+    background-color: #263238;
+}
+QPushButton#exitButton:hover {
+    background-color: #102027;
+}
+
+/* Таблицы */
+QTableView, QTableWidget {
+    background-color: #fff;
+    border: 1px solid #bbdefb;
+    gridline-color: #e3f2fd;
+    border-radius: 5px;
+    selection-background-color: #bbdefb;
+    selection-color: #213461;
+}
+QHeaderView::section {
+    background-color: #1976d2;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    padding: 8px 2px;
+    font-size: 10pt;
+}
+
+/* Вкладки и группа */
+QTabBar::tab {
+    background-color: #e3f2fd;
+    color: #1976d2;
+    border-radius: 6px 6px 0 0;
+    padding: 8px 18px;
+    font-weight: bold;
+    font-size: 11pt;
+    margin: 0 2px 0 0;
+    border-bottom: 2px solid transparent;
+}
+QTabBar::tab:selected {
+    background-color: #fff;
+    color: #0d1934;
+    border-bottom: 3px solid #1976d2;
+}
+QTabBar::tab:hover {
+    background-color: #bbdefb;
+}
+
+/* Поля */
+QLineEdit, QTextEdit, QPlainTextEdit, QComboBox, QSpinBox, QDoubleSpinBox, QDateEdit {
+    border: 1.5px solid #bbdefb;
+    padding: 6px;
+    border-radius: 5px;
+}
+QLineEdit:focus, QTextEdit:focus, QPlainTextEdit:focus, QComboBox:focus, QSpinBox:focus, QDoubleSpinBox:focus, QDateEdit:focus {
+    border: 2px solid #1976d2;
+}
+QGroupBox {
+    border: 2px solid #1976d2;
+    border-radius: 8px;
+    margin-top: 12px;
+    color: #0d47a1;
+    background: #e3f2fd;
+    font-weight: 600;
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 8px 0 8px;
+    background: #1976d2;
+    color: #fff;
+    border-radius: 6px;
+}
+
+/* Статус бар */
+QStatusBar {
+    background-color: #1976d2;
+    color: #fff;
+    border-top: 2px solid #0d47a1;
+    font-size: 9.5pt;
+    padding: 3px 12px;
+}
+
+/* Меню, тулбар */
+QMenuBar {
+    background-color: #1976d2;
+    color: #fff;
+}
+QMenuBar::item { 
+    padding: 7px 16px; 
+    color: #fff;
+}
+QMenuBar::item:selected {
+    background: #1565c0;
+}
+QMenu {
+    background: #fff;
+    border: 2px solid #1976d2;
+}
+QMenu::item {
+    padding: 8px 27px 8px 27px;
+    color: #1976d2;
+}
+QMenu::item:selected {
+    background: #bbdefb;
+    color: #0d47a1;
+}
+QToolBar {
+    background: #e3f2fd;
+    border-bottom: 2px solid #bbdefb;
+}
+
+/* ToolTip */
+QToolTip {
+    background: #1976d2;
+    color: #fff;
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 9pt;
+}

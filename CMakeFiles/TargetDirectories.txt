@@ -1,0 +1,5 @@
+C:/Users/Admin/Desktop/sklad2_HK/build/CMakeFiles/sklad2_HK.dir
+C:/Users/Admin/Desktop/sklad2_HK/build/CMakeFiles/edit_cache.dir
+C:/Users/Admin/Desktop/sklad2_HK/build/CMakeFiles/rebuild_cache.dir
+C:/Users/Admin/Desktop/sklad2_HK/build/CMakeFiles/sklad2_HK_autogen_timestamp_deps.dir
+C:/Users/Admin/Desktop/sklad2_HK/build/CMakeFiles/sklad2_HK_autogen.dir
