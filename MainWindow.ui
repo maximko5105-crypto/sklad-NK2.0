@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Складская система HK</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+    background-color: #f0f5ff;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string>Быстрый доступ</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="warehouseButton">
+         <property name="text">
+          <string>📦 Склад</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 12pt;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #1565c0;
+}</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="requestsButton">
+         <property name="text">
+          <string>📋 Заявки</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 12pt;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #1565c0;
+}</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="reportsButton">
+         <property name="text">
+          <string>📊 Отчеты</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 12pt;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #1565c0;
+}</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="usersButton">
+         <property name="text">
+          <string>👥 Пользователи</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 12pt;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #1565c0;
+}</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="settingsButton">
+         <property name="text">
+          <string>⚙️ Настройки</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 12pt;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #1565c0;
+}</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="exitButton">
+         <property name="text">
+          <string>🚪 Выход</string>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 12pt;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #c62828;
+}</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

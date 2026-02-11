@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddProductDialog</class>
+ <widget class="QDialog" name="AddProductDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Добавить товар</string>
+  </property>
+
+  <layout class="QVBoxLayout" name="verticalLayout">
+
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+
+     <item row="0" column="0">
+      <widget class="QLabel" name="labelName">
+       <property name="text">
+        <string>Наименование:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="nameEdit"/>
+     </item>
+
+     <item row="1" column="0">
+      <widget class="QLabel" name="labelDescription">
+       <property name="text">
+        <string>Описание:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QTextEdit" name="descriptionEdit"/>
+     </item>
+
+     <item row="2" column="0">
+      <widget class="QLabel" name="labelCategory">
+       <property name="text">
+        <string>Категория:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QComboBox" name="categoryCombo"/>
+     </item>
+
+     <item row="3" column="0">
+      <widget class="QLabel" name="labelSku">
+       <property name="text">
+        <string>SKU:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="skuEdit"/>
+     </item>
+
+     <item row="4" column="0">
+      <widget class="QLabel" name="labelBarcode">
+       <property name="text">
+        <string>Штрихкод:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="barcodeEdit"/>
+     </item>
+
+     <item row="5" column="0">
+      <widget class="QLabel" name="labelQuantity">
+       <property name="text">
+        <string>Количество:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="quantityEdit"/>
+     </item>
+
+     <item row="6" column="0">
+      <widget class="QLabel" name="labelUnit">
+       <property name="text">
+        <string>Ед. измерения:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QComboBox" name="unitCombo"/>
+     </item>
+
+     <item row="7" column="0">
+      <widget class="QLabel" name="labelPrice">
+       <property name="text">
+        <string>Цена:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLineEdit" name="priceEdit"/>
+     </item>
+
+     <item row="8" column="0">
+      <widget class="QLabel" name="labelMinQuantity">
+       <property name="text">
+        <string>Мин. запас:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QLineEdit" name="minQuantityEdit"/>
+     </item>
+
+     <item row="9" column="0">
+      <widget class="QLabel" name="labelLocation">
+       <property name="text">
+        <string>Местоположение:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QLineEdit" name="locationEdit"/>
+     </item>
+
+    </layout>
+   </item>
+
+   <item>
+    <layout class="QHBoxLayout">
+
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </spacer>
+     </item>
+
+     <item>
+      <widget class="QPushButton" name="addButton">
+       <property name="text">
+        <string>Добавить</string>
+       </property>
+      </widget>
+     </item>
+
+     <item>
+      <widget class="QPushButton" name="cancelButton">
+       <property name="text">
+        <string>Отмена</string>
+       </property>
+      </widget>
+     </item>
+
+    </layout>
+   </item>
+
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
